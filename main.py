@@ -55,16 +55,20 @@ for i, group in enumerate(groups):
 # Open the file and read in the conversation starters
 with open("conversation_starters.txt", "r") as file:
     conversation_starters = file.readlines()
-
+print("a")
 # Randomly choose a conversation starter from the list
-random_starter = random.choice(conversation_starters).strip()
+print("b")
 
 
 #Requirement 8
-def generate_messages_and_save_files(groups, random_starter):
-    for group in groups:
-        group_message = f"Hello {group},\n\nYou have been matched to this group for a meeting about. Your conversation starter is:\n\n{random_starter}"
+def generate_messages_and_save_files(groups):
+    for i in range(len(groups)):
+        random_starter = random.choice(conversation_starters).strip()
+        group_message = f"Hello {i},\n\nYou have been matched to this group for a meeting about. Your conversation starter is:\n\n{random_starter}"
         print(group_message)
         with open(f"generate_message_group_{i+1}.txt", "w") as file:
             file.write(group_message)
             print(f"{i+1}")
+
+
+generate_messages_and_save_files(groups)
