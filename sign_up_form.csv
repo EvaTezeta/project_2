@@ -1,14 +1,14 @@
 ID;name;email;age;faculty;interest
-1;Emily Foster;emily.foster@example.com;26;Psychology;Photography
-2;Dania ;dania57j.s@gmail.com;19;Geosciences;Sunflowers
-3;Daniel Wong;daniel.wong@example.com;35;Computer Science;Playing chess
-4;Sarah Patel;sarah.patel@example.com;28;Business;Traveling
-5;Michael Reed;michael.reed@example.com;34;Linguistics;Dancing
-6;Samantha Perez;samantha.perez@example.com;37;Law;Hiking
-7;Maria Hernandez;maria.hernandez@example.com;25;Medicine;Reading
-8;Benjamin Collins;benjamin.collins@example.com;37;Economics;Cooking
-9;Jennifer Green;jennifer.green@example.com;31;Engineering;Rowing
-10;Ryan Davis;ryan.davis@example.com;28;Education;Sewing
+1;Emily;emily.foster@example.com;26;Psychology;Photography
+2;Dania;dania57j.s@gmail.com;19;Geosciences;Sunflowers
+3;Daniel;daniel.wong@example.com;35;Computer Science;Playing chess
+4;Sarah;sarah.patel@example.com;28;Business;Traveling
+5;Michael;michael.reed@example.com;34;Linguistics;Dancing
+6;Samantha;samantha.perez@example.com;37;Law;Hiking
+7;Maria;maria.hernandez@example.com;25;Medicine;Reading
+8;Benjamin;benjamin.collins@example.com;37;Economics;Cooking
+9;Jennifer;jennifer.green@example.com;31;Engineering;Rowing
+10;Ryan;ryan.davis@example.com;28;Education;Sewing
 11;Lisa;lisa90t@gmail.com;20;Social science;Drawing 
 12;Bob;bob.brian57@gmail.com;20;Humanities;Climbing 
 13;Maxine;maxine@gmail.com;21;Psychology;Photography

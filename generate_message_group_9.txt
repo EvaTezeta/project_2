@@ -1,5 +1,0 @@
-Hello [{'ID': '2', 'name': 'Dania ', 'email': 'dania57j.s@gmail.com', 'age': '19', 'faculty': 'Geosciences', 'interest': 'Sunflowers'}, {'ID': '7', 'name': 'Maria Hernandez', 'email': 'maria.hernandez@example.com', 'age': '25', 'faculty': 'Medicine', 'interest': 'Reading'}, {'ID': '3', 'name': 'Daniel Wong', 'email': 'daniel.wong@example.com', 'age': '35', 'faculty': 'Computer Science', 'interest': 'Playing chess'}],
-
-You have been matched to this group for a meeting about. Your conversation starter is:
-
-What's the most interesting thing you've learned recently?
