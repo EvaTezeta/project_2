@@ -1,5 +1,5 @@
-Hello group 1! You have been matched to this group for the Caffeine Connections. 
+Hello group 1 [['Bob', 'Trevor', 'Samantha'], ['Michael', 'Tariq', 'Benjamin'], ['Giovanni', 'Isabella'], ['Charlotte', 'Serenity', 'Naomi', 'Emily'], ['Maria', 'Diego'], ['Daniel', 'Malik'], ['Dania', 'Sylvia', 'Sarah', 'Olivia'], ['Ethan', 'Ryan'], ['Xavier', 'Lisa', 'Jade', 'Leah'], ['Jennifer', 'Maxine', 'Nia', 'Blake', 'Anthony', 'Gavin']]! You have been matched to this group for today's chatCOFFEE. 
 
-Your conversation starter today is: What's your favourite type of cuisine? 
+Your conversation starter for today is: What's the most interesting thing you learned recently? 
 
-Enjoy your Caffeine Connection!
+Enjoy your chat with coffee!

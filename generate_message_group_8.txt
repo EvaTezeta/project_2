@@ -1,5 +1,5 @@
-Hello group 8! You have been matched to this group for the Caffeine Connections. Your conversation starter is: 
+Hello group 8 [['Bob', 'Trevor', 'Samantha'], ['Michael', 'Tariq', 'Benjamin'], ['Giovanni', 'Isabella'], ['Charlotte', 'Serenity', 'Naomi', 'Emily'], ['Maria', 'Diego'], ['Daniel', 'Malik'], ['Dania', 'Sylvia', 'Sarah', 'Olivia'], ['Ethan', 'Ryan'], ['Xavier', 'Lisa', 'Jade', 'Leah'], ['Jennifer', 'Maxine', 'Nia', 'Blake', 'Anthony', 'Gavin']]! You have been matched to this group for today's chatCOFFEE. 
 
-What's something you've always wanted to learn how to do? 
+Your conversation starter for today is: What's the best book you've ever read? 
 
-Enjoy this new Caffeine Connection!
+Enjoy your chat with coffee!
