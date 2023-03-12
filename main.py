@@ -18,9 +18,11 @@ random.shuffle(participants)
 initial_group_size = 0
 possible_group_sizes = [2, 3, 4, 5]
 
+#A list for the groups
+groups = []
+
 while participants:
     group = []
-    groups = []
     # Choose random group size
     if initial_group_size == 0:
         group_size = random.choice(possible_group_sizes)
@@ -77,6 +79,7 @@ with open("conversation_starters.txt", "r") as file:
 def generate_messages_and_save_files(groups):
     for i in range(len(groups)):
         # Get the list of names, faculties and interests of the group members
+        group = groups[i]
         names = [member["name"] for member in group]
         faculties = [member["faculty"] for member in group]
         interests = [member["interest"] for member in group]
@@ -85,7 +88,9 @@ def generate_messages_and_save_files(groups):
         random_starter = random.choice(conversation_starters).strip()
 
         # Generate message with names, faculties and interests
-        group_message = (f"Hello {' & '.join(names)}! You have been matched to this group for today's coffee talk.\n\nYou are in the faculties of: {' &  '.join(faculties)}.\n\nYour interests are: {' & '.join(interests)}.\n\nHere's a question to get talking: {random_starter}\n\nEnjoy your chat with a nice cup of coffee!\n{art}")
+        group_message = (
+            f"Hello {' & '.join(names)}! You have been matched to group { i} for today's coffee talk.\n\nYou are in the faculties of: {' &  '.join(faculties)}.\n\nYour interests are: {' & '.join(interests)}.\n\nHere's a question to get talking: {random_starter}\n\nEnjoy your chat with a nice cup of coffee!\n{art}"
+        )
         print(group_message)
 
         # Create new text files for each group with the random starter
