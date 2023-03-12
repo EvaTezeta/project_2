@@ -18,11 +18,9 @@ random.shuffle(participants)
 initial_group_size = 0
 possible_group_sizes = [2, 3, 4, 5]
 
-# Create empty list
-groups = []
-
 while participants:
     group = []
+    groups = []
     # Choose random group size
     if initial_group_size == 0:
         group_size = random.choice(possible_group_sizes)
@@ -44,25 +42,31 @@ while participants:
     # Add the group to the list of groups
     groups.append(group)
 
+# Give an explanation what the lists are
+print("""Thank you for using chatCOFFEE!
+The lists below are the groups for today's chat.\n""")
+
 # Print the groups
-#def name_and_address():
 for i, group in enumerate(groups):
     print(f"Group {i} ({len(group)} participants):")
     for participant in group:
         print(f"- {participant['name']} ({participant['email']})")
-        print()
+    print()
 
-# Creating a nested list for the group names
-# This allows for them to be mentioned later
-list_with_names = []
-inner_list = []
-
-list_with_names = []
-for group in groups:
-    inner_list = []
-    for dictionary in group:
-        inner_list.append(dictionary['name'])
-    list_with_names.append(inner_list)
+#An image to add to the text file
+art = r""" 
+          )    ) (      
+         (    (  )
+         )    ) (
+      |      (     |
+      |- - - - - - |"".
+      |            |  "
+      |            | ."
+      |            ."
+      |            |
+      (||||||||||||)
+      
+      """
 
 # Open the file and read in the conversation starters
 with open("conversation_starters.txt", "r") as file:
@@ -72,10 +76,16 @@ with open("conversation_starters.txt", "r") as file:
 # Create function to generate messages
 def generate_messages_and_save_files(groups):
     for i in range(len(groups)):
+        # Get the list of names, faculties and interests of the group members
+        names = [member["name"] for member in group]
+        faculties = [member["faculty"] for member in group]
+        interests = [member["interest"] for member in group]
 
         # Randomly choose a conversation starter from the list
         random_starter = random.choice(conversation_starters).strip()
-        group_message = f"Hello group {i} {list_with_names}! You have been matched to this group for today's chatCOFFEE. \n\nYour conversation starter for today is: {random_starter} \n\nEnjoy your chat with coffee!"
+
+        # Generate message with names, faculties and interests
+        group_message = (f"Hello {' & '.join(names)}! You have been matched to this group for today's coffee talk.\n\nYou are in the faculties of: {' &  '.join(faculties)}.\n\nYour interests are: {' & '.join(interests)}.\n\nHere's a question to get talking: {random_starter}\n\nEnjoy your chat with a nice cup of coffee!\n{art}")
         print(group_message)
 
         # Create new text files for each group with the random starter
