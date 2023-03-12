@@ -89,7 +89,7 @@ def generate_messages_and_save_files(groups):
 
         # Generate message with names, faculties and interests
         group_message = (
-            f"Hello {' & '.join(names)}! You have been matched to group { i} for today's coffee talk.\n\nYou are in the faculties of: {' &  '.join(faculties)}.\n\nYour interests are: {' & '.join(interests)}.\n\nHere's a question to get talking: {random_starter}\n\nEnjoy your chat with a nice cup of coffee!\n{art}"
+            f"Hello {' & '.join(names)}! You have been matched to group {i} for today's coffee talk.\n\nYou are in the faculties of: {' & '.join(faculties)}.\n\nYour interests are: {' & '.join(interests)}.\n\nHere's a question to get talking: {random_starter}\n\nEnjoy your chat with a nice cup of coffee!\n{art}"
         )
         print(group_message)
 
