@@ -2,7 +2,7 @@
 import csv
 import random
 
-# A list to add all the participants
+# List to add all the participants
 participants = []
 
 # Return the content of the file as list of dictionaries
@@ -18,11 +18,12 @@ random.shuffle(participants)
 initial_group_size = 0
 possible_group_sizes = [2, 3, 4, 5]
 
-# A list for the groups
+# List for the groups
 groups = []
 
 while participants:
     group = []
+
     # Choose random group size
     if initial_group_size == 0:
         group_size = random.choice(possible_group_sizes)
@@ -51,7 +52,7 @@ for i, group in enumerate(groups):
         print(f"- {participant['name']} ({participant['email']})")
     print()
 
-# An image to added to the message
+# An image to add to the message
 art = r""" 
           )    ) (      
          (    (  )
