@@ -78,9 +78,14 @@ def generate_messages_and_save_files(groups):
 
         # Get the list of names, faculties and interests of the group members
         group = groups[i]
-        names = [member["name"] for member in group]
-        faculties = [member["faculty"] for member in group]
-        interests = [member["interest"] for member in group]
+        names = []
+        faculties = []
+        interests = []
+
+        for member in group:
+          names.append(member["name"])
+          faculties.append(member["faculty"])
+          interests.append(member["interest"])
 
         #Check if the participants are from the same faculties
         def common_faculties():
@@ -113,7 +118,7 @@ def generate_messages_and_save_files(groups):
 
         # Generate message with names, faculties and interests
         group_message = (
-            f"""Hello {' & '.join(names)}! You have been matched to group {i} for today's coffee talk. Here is some information that might be interesting for you.\n\n{common_faculties()} \nThe faculties you are from are: {' & '.join(faculties)}.\n\n{common_interests()} Your interests are: {' & '.join(interests)}. \n\nHere's a question to get talking: {random_starter}\n\nEnjoy your chat with a nice cup of coffee!\n{art} """
+            f"""Hello {' & '.join(names)}! You have been matched to group {i} for today's coffee talk called ChatCOFFEE. Here is some information that might be interesting for you.\n\n{common_faculties()} \nThe faculties you are from are: {' & '.join(faculties)}.\n\n{common_interests()} Your interests are: {' & '.join(interests)}. \n\nHere's a question to get talking: {random_starter}\n\nEnjoy your chat with a nice cup of coffee!\n{art} """
         )
 
         print(group_message)
