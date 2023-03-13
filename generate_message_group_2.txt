@@ -1,10 +1,11 @@
-Hello Jennifer & Benjamin! You have been matched to group 2 for today's coffee talk.
+Hello Blake & Bob! You have been matched to group 2 for today's coffee talk. Here is some information that might be interesting for you.
 
-You are in the faculties of: Engineering &  Economics.
+You are all from different faculties. 
+The faculties you are from are: Engineering & Humanities.
 
-Your interests are: Rowing & Cooking.
+Some of you have common interests! Your interests are: Climbing  & Climbing . 
 
-Here's a question to get talking: What's your favorite type of cuisine?
+Here's a question to get talking: What's the best gift you've ever received?
 
 Enjoy your chat with a nice cup of coffee!
  
@@ -19,4 +20,4 @@ Enjoy your chat with a nice cup of coffee!
       |            |
       (||||||||||||)
       
-      
+       

@@ -1,10 +1,11 @@
-Hello Naomi & Lisa & Gavin & Emily & Samantha! You have been matched to group 1 for today's coffee talk.
+Hello Xavier & Naomi & Samantha! You have been matched to group 1 for today's coffee talk. Here is some information that might be interesting for you.
 
-You are in the faculties of: Education &  Social science &  Computer Science &  Psychology &  Law.
+You are all from different faculties. 
+The faculties you are from are: Medicine & Education & Law.
 
-Your interests are: Photography & Drawing  & Hiking & Photography & Hiking.
+You all have different interests. Your interests are: Sewing & Photography & Hiking. 
 
-Here's a question to get talking: What's your favorite outdoor activity?
+Here's a question to get talking: If you could travel anywhere in the world, where would you like to go?
 
 Enjoy your chat with a nice cup of coffee!
  
@@ -19,4 +20,4 @@ Enjoy your chat with a nice cup of coffee!
       |            |
       (||||||||||||)
       
-      
+       

@@ -1,6 +1,6 @@
 ID;name;email;age;faculty;interest
 1;Emily;emily.foster@example.com;26;Psychology;Photography
-2;Dania;dania57j.s@gmail.com;19;Geosciences;Sunflowers
+2;Dania;dania57j.s@gmail.com;19;Geosciences;Gardening
 3;Daniel;daniel.wong@example.com;35;Computer Science;Playing chess
 4;Sarah;sarah.patel@example.com;28;Business;Traveling
 5;Michael;michael.reed@example.com;34;Linguistics;Dancing
@@ -12,8 +12,8 @@ ID;name;email;age;faculty;interest
 11;Lisa;lisa90t@gmail.com;20;Social science;Drawing 
 12;Bob;bob.brian57@gmail.com;20;Humanities;Climbing 
 13;Maxine;maxine@gmail.com;21;Psychology;Photography
-14;Diego;diego@gmail.com;26;Geosciences;Sunflowers
-15;Sylvia;sylvia@gmail.com;18;Computer Science;Playing chess
+14;Diego;diego@gmail.com;26;Geosciences;Gardening
+15;Sylvia;sylvia@gmail.com;18;Computer Science;Cooking
 16;Malik;malik@gmail.com;30;Psychology;Traveling
 17;Leah;leah@gmail.com;23;Geosciences;Dancing
 18;Ethan;ethan@gmail.com;45;Computer Science;Hiking
@@ -24,11 +24,18 @@ ID;name;email;age;faculty;interest
 23;Olivia;olivia@gmail.com;19;Economics;Drawing 
 24;Blake;blake@gmail.com;18;Engineering;Climbing 
 25;Naomi;naomi@gmail.com;23;Education;Photography
-26;Giovanni;giovanni@gmail.com;25;Social science;Sunflowers
+26;Giovanni;giovanni@gmail.com;25;Social science;Growing plants
 27;Charlotte;charlotte@gmail.com;26;Humanities;Playing chess
 28;Trevor;trevor@gmail.com;27;Psychology;Traveling
 29;Jade;jade@gmail.com;29;Geosciences;Dancing
 30;Gavin;gavin@gmail.com;30;Computer Science;Hiking
 31;Nia;nia@gmail.com;33;Business;Reading
 32;Anthony;anthony@gmail.com;34;Linguistics;Cooking
-
+33;John;smith.john23@gmail.com;19;Medicine;Travelling
+34;Tara;tara_lee90@yahoo.com;27;Business;Soccer
+35;Chris;chris.jackson12@hotmail.com;23;Pharmacy;Crocheting
+36;Andrew;andrew.wilson33@outlook.com;25;Arts;Dancing
+37;Nina;nina_patel45@gmail.com;18;Education;Collecting stamps
+38;Samantha;sam.jones99@yahoo.com;45;Business;Reading
+39;Maddie;maddie_wilson11@hotmail.com;30;Medicine;Surfing
+40;George;george.davis87@gmail.com;43;Law;Knitting
